@@ -1,0 +1,34 @@
+ import React from 'react';
+
+function Header() {
+  return <h1>Employee Management System</h1>;
+}
+
+function EmployeeList() {
+  return (
+    <div>
+      <h2>Employee List</h2>
+      <ul>
+        <li>Ravi</li>
+        <li>Priya</li>
+        <li>Rahul</li>
+      </ul>
+    </div>
+  );
+}
+
+function Footer() {
+  return <h3>Copyright 2026</h3>;
+}
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <EmployeeList />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
